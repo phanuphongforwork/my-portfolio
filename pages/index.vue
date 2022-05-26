@@ -1,7 +1,7 @@
 <script lang="ts" setup></script>
 
 <template>
-  <div class="hero min-h-screen bg-gradient-to-r from-gray-800 to-graybase-100">
+  <div class="hero">
     <div class="hero-content flex-col lg:flex-row">
       <img
         src="~/assets/images/profile1.jpg"
@@ -29,7 +29,9 @@
           "𝘕𝘦𝘷𝘦𝘳 𝘨𝘪𝘷𝘦 𝘶𝘱 𝘰𝘯 𝘴𝘰𝘮𝘦𝘵𝘩𝘪𝘯𝘨 𝘺𝘰𝘶 𝘳𝘦𝘢𝘭𝘭𝘺 𝘸𝘢𝘯𝘵. 𝘏𝘰𝘸𝘦𝘷𝘦𝘳 𝘪𝘮𝘱𝘰𝘴𝘴𝘪𝘣𝘭𝘦 𝘵𝘩𝘪𝘯𝘨𝘴
           𝘮𝘢𝘺 𝘴𝘦𝘦𝘮, 𝘵𝘩𝘦𝘳𝘦'𝘴 𝘢𝘭𝘸𝘢𝘺𝘴 𝘢 𝘸𝘢𝘺. "
         </p>
-        <button class="btn btn-primary">Let's See!</button>
+        <nuxt-link to="/profile">
+          <button class="btn btn-primary">Let's See!</button></nuxt-link
+        >
       </div>
     </div>
   </div>
