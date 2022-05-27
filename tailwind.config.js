@@ -1,4 +1,11 @@
 module.exports = {
+  theme: {
+    extend: {
+      fontFamily: {
+        kanit: ["kanit", "sans-serif"],
+      },
+    },
+  },
   content: [
     "./assets/**/*.{vue,js,css}",
     "./components/**/*.{vue,js}",

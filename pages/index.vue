@@ -1,5 +1,8 @@
-<script lang="ts" setup></script>
-
+<script setup>
+definePageMeta({
+  layout: false,
+});
+</script>
 <template>
   <div class="hero">
     <div class="hero-content flex-col lg:flex-row">
