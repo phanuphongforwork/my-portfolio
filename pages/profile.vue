@@ -2,7 +2,11 @@
 definePageMeta({
   layout: false,
 });
+
+import { Profile } from "#components";
 </script>
 <template>
-  <NuxtLayout name="main"> The rest of the page </NuxtLayout>
+  <NuxtLayout name="main">
+    <Profile />
+  </NuxtLayout>
 </template>

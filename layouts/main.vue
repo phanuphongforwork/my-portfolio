@@ -104,7 +104,7 @@
         </div>
       </div>
       <div
-        class="bg-gradient-to-r from-gray-800 to-graybase-100 min-h-screen p-4"
+        class="bg-gradient-to-r from-gray-800 to-graybase-100 min-h-screen lg:px-40 px-0 lg:py-20 py-4"
       >
         <slot />
       </div>
@@ -116,7 +116,7 @@
           <a class="normal-case text-xl text-primary">𝙈𝙞𝙘𝙧𝙤𝙬𝙖𝙫𝙚 ::</a>
         </li>
         <!-- Sidebar content here -->
-        <li>
+        <!-- <li>
           <a class="font-kanit font-bold" href="/"
             ><svg
               xmlns="http://www.w3.org/2000/svg"
@@ -133,7 +133,7 @@
               /></svg
             >HOME</a
           >
-        </li>
+        </li> -->
         <li>
           <a class="font-kanit font-bold"
             ><svg
@@ -229,7 +229,7 @@
         </li>
 
         <div
-          class="absolute inset-x-0 bottom-0 w-full grid grid-cols-3 lg:gap-2 gap-1"
+          class="absolute inset-x-0 bottom-0 w-full grid grid-cols-3 lg:gap-2 gap-1 lg:hidden"
         >
           <button class="btn gap-2">
             <svg
